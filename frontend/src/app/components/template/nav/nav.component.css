@@ -3,6 +3,19 @@
     width: 200px;
 }
 
+.sidenav span {
+    vertical-align: middle;
+}
+
 .sidenav i{
     padding-right: 10px;
+}
+
+.content{
+    padding: 16px;
+    background-color: #fff;
+}
+
+.material-icons{
+    vertical-align: middle;
 }
