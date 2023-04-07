@@ -1,3 +1,25 @@
-<p [id]="propLegal">product-create works!</p>
-
-<button (click)="fazerAlgo()">Fazer Algo!</button>
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" type="text" [formControl]="formName"
+                [(ngModel)]="product.name" name="name">
+            <mat-error *ngIf="formName.invalid">Valor inválidoa</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Insira o preço</mat-label>
+            <input matInput placeholder="Preço (R$)" type="number" [formControl]="formPrice"
+                [(ngModel)]="product.price" name="price">
+            <mat-error *ngIf="formPrice.invalid">Valor inválido</mat-error>
+        </mat-form-field>
+    </form>
+    <div>
+        <button mat-raised-button (click)="createProduct()" color="primary">
+            Salvar
+        </button>
+        
+        <button mat-raised-button (click)="cancel()">
+            Cancelar
+        </button>
+    </div>
+</mat-card>

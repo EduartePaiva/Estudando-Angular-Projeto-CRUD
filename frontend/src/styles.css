@@ -3,6 +3,10 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+:root{
+    --cor-padrao: #673ab7;
+}
+
 .red {
     color: #e35e6b;
 }
