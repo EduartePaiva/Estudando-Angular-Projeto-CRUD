@@ -2,8 +2,11 @@
     background-color: var(--cor-padrao);
 
     width: 200px;
+    padding-top: 64px;
 }
 
+.container{
+}
 .sidenav span {
     vertical-align: middle;
 }

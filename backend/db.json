@@ -1,83 +1,19 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": 5.89
-    },
-    {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
-    },
-    {
-      "id": 3,
-      "name": "geladeira",
-      "price": "2500.01"
-    },
-    {
-      "name": "Produto de Teste",
-      "price": 125.98,
-      "id": 4
-    },
-    {
-      "name": "Produto de Teste",
-      "price": 125.98,
-      "id": 5
-    },
-    {
-      "name": "Produto de Teste",
-      "price": 125.98,
-      "id": 6
-    },
-    {
-      "name": "Produto de Teste",
-      "price": 125.98,
-      "id": 7
-    },
-    {
-      "name": "Produto de Teste",
-      "price": 125.98,
-      "id": 8
-    },
-    {
-      "name": "cadeira",
-      "price": "500",
-      "id": 9
-    },
-    {
-      "name": "ed",
-      "id": 10
-    },
-    {
-      "name": "Notebook",
-      "price": "3560",
-      "id": 11
-    },
-    {
-      "name": "Lapis",
-      "price": "Preto",
-      "id": 12
+      "name": "edu",
+      "price": 123,
+      "id": 1
     },
     {
       "name": "teste",
-      "price": "",
-      "id": 13
+      "price": 123,
+      "id": 2
     },
     {
-      "name": "edu",
-      "price": 46546,
-      "id": 14
-    },
-    {
-      "name": "646",
-      "price": 4564,
-      "id": 15
-    },
-    {
-      "name": "edu",
-      "price": 100,
-      "id": 16
+      "name": "teste",
+      "price": 123,
+      "id": 3
     }
   ]
 }

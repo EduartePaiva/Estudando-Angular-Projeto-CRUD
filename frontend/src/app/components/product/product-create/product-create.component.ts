@@ -29,12 +29,7 @@ export class ProductCreateComponent implements OnInit {
   }
 
   createProduct() {
-    if(!this.product.price || typeof(this.product.price) != 'number' || this.product.name === ''){
-      this.ProductService.showMessage('Valor inserido inválido')
-      return
-    }
-
-    this.ProductService.create(this.product).subscribe(() => {
+    this.ProductService.create(this.product)?.subscribe(() => {
       this.ProductService.showMessage('Produto criado!')
       this.cancel()
     })
